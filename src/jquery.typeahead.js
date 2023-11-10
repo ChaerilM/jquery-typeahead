@@ -30,7 +30,7 @@
   "use strict";
 
   window.Typeahead = {
-    version: '2.12.0',
+    version: '2.13.1',
   };
 
   /**
