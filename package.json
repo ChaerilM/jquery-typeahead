@@ -31,7 +31,7 @@
     "@babel/core": "^7.22.5",
     "@babel/preset-env": "^7.22.5",
     "gulp": "^4.0.2",
-    "gulp-autoprefixer": "8.0.0",
+    "gulp-autoprefixer": "9.0.0",
     "gulp-clean-css": "^4.3.0",
     "gulp-cli": "^2.3.0",
     "gulp-jshint": "^2.1.0",
