@@ -45,7 +45,7 @@
     "node-sass": "^9.0.0",
     "prettier": "^2.8.8",
     "prettier-eslint": "^15.0.1",
-    "prettier-eslint-cli": "^7.1.0",
+    "prettier-eslint-cli": "^8.0.1",
     "sinon": "^15.1.2",
     "uglify-save-license": "^0.4.1"
   },
