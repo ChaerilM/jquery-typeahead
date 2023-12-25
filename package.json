@@ -44,7 +44,7 @@
     "jshint": "^2.13.6",
     "node-sass": "^9.0.0",
     "prettier": "^2.8.8",
-    "prettier-eslint": "^15.0.1",
+    "prettier-eslint": "^16.2.0",
     "prettier-eslint-cli": "^7.1.0",
     "sinon": "^15.1.2",
     "uglify-save-license": "^0.4.1"
