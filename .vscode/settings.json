@@ -9,5 +9,5 @@
     "css.validate": false,
     "less.validate": false,
     "scss.validate": false,
-    "editor.formatOnSave": false,
+    "editor.formatOnSave": false
 }
