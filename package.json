@@ -23,7 +23,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@babel/register": "^7.22.5",
+    "@babel/register": "^7.23.7",
     "jquery": ">=3.7.0",
     "lz-string": "^1.5.0"
   },
