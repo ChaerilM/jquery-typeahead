@@ -1,12 +1,3 @@
-/*!
- * jQuery Typeahead
- * Copyright (C) 2023 RunningCoder.org
- * Licensed under the MIT license
- *
- * @author Tom Bertrand
- * @version 2.12.0 (2023-11-10)
- * @link https://github.com/ChaerilM/jquery-typeahead
- */
 (function (factory) {
   if (typeof define === "function" && define.amd) {
     define("jquery-typeahead", ["jquery"], function (jQuery) {
@@ -30,7 +21,7 @@
   "use strict";
 
   window.Typeahead = {
-    version: '2.13.1',
+    version: '2.13.3',
   };
 
   /**

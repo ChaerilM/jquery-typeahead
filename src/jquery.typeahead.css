@@ -78,8 +78,8 @@
 .typeahead__container [type=reset],
 .typeahead__container [type=submit] {
   -webkit-appearance: button;
-  -moz-appearance: button;
-  appearance: button; /* 2 */
+     -moz-appearance: button;
+          appearance: button; /* 2 */
 }
 .typeahead__container button::-moz-focus-inner,
 .typeahead__container [type=button]::-moz-focus-inner,
@@ -101,7 +101,7 @@
 }
 .typeahead__container legend {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box; /* 1 */
+          box-sizing: border-box; /* 1 */
   color: inherit; /* 2 */
   display: table; /* 1 */
   max-width: 100%; /* 1 */
@@ -114,7 +114,7 @@
 .typeahead__container [type=checkbox],
 .typeahead__container [type=radio] {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box; /* 1 */
+          box-sizing: border-box; /* 1 */
   padding: 0; /* 2 */
 }
 .typeahead__container [type=number]::-webkit-inner-spin-button,
@@ -143,7 +143,7 @@
 }
 .typeahead__container ::-webkit-file-upload-button {
   -webkit-appearance: button;
-  appearance: button; /* 1 */
+          appearance: button; /* 1 */
   font: inherit; /* 2 */
 }
 
@@ -153,7 +153,7 @@
 }
 .typeahead__container * {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   outline: 0;
 }
 .typeahead__container input.disabled,
@@ -164,7 +164,7 @@
   pointer-events: none;
   opacity: 0.65;
   -webkit-box-shadow: none;
-  box-shadow: none;
+          box-shadow: none;
   background-color: #fff;
   border-color: #ccc;
 }
@@ -228,10 +228,10 @@
   border: 1px solid #ccc;
   border-radius: 2px 0 0 2px;
   -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
+     -moz-appearance: none;
+          appearance: none;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 .typeahead__field input:focus, .typeahead__field input:active,
 .typeahead__field textarea:focus,
@@ -301,9 +301,9 @@
 }
 .typeahead__cancel-button {
   -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   position: absolute;
   right: 0;
   cursor: pointer;
@@ -324,8 +324,8 @@
   padding-left: 6px;
   width: 100%;
   -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -349,8 +349,8 @@
 }
 .typeahead__label > * {
   -webkit-align-self: center;
-  -ms-flex-item-align: center;
-  align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center;
 }
 .typeahead__label .typeahead__cancel-button {
   line-height: normal;
@@ -377,16 +377,16 @@
   margin-bottom: 0;
   text-align: center;
   -ms-touch-action: manipulation;
-  touch-action: manipulation;
+      touch-action: manipulation;
   cursor: pointer;
   background-color: #fff;
   border: 1px solid #ccc;
   line-height: 1.25;
   padding: 0.5rem 0.75rem;
   -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   color: #555;
 }
 .typeahead__container button:hover, .typeahead__container button:focus {
@@ -468,7 +468,7 @@
   width: 1.35rem;
   height: 1.35rem;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   border-radius: 500rem;
   border-style: solid;
   border-width: 0.1em;
@@ -478,30 +478,30 @@
 }
 .typeahead__container.loading .typeahead__query::after {
   -webkit-animation: button-spin 0.6s linear;
-  animation: button-spin 0.6s linear;
+          animation: button-spin 0.6s linear;
   -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
   border-color: #fff transparent transparent;
   -webkit-box-shadow: 0 0 0 1px transparent;
-  box-shadow: 0 0 0 1px transparent;
+          box-shadow: 0 0 0 1px transparent;
 }
 @-webkit-keyframes button-spin {
   from {
     -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
+            transform: rotate(0deg);
   }
   to {
     -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
+            transform: rotate(360deg);
   }
 }
 @keyframes button-spin {
   from {
     -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
+            transform: rotate(0deg);
   }
   to {
     -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
+            transform: rotate(360deg);
   }
 }

@@ -1,6 +1,6 @@
 {
   "name": "jquery-typeahead",
-  "version": "2.13.1",
+  "version": "2.13.3",
   "description": "jQuery plugin that provides Typeahead (autocomplete) Search preview from Json object(s) via same domain Ajax request or cross domain Jsonp and offers data compression inside Local Storage. The plugin is built with a lot of options and callbacks to allow customization.",
   "author": {
     "name": "Tom Bertrand"
@@ -33,31 +33,27 @@
   "devDependencies": {
     "@babel/core": "^7.23.3",
     "@babel/preset-env": "^7.23.3",
+    "autoprefixer": "^10.4.19",
+    "clean-css": "^5.3.3",
     "eslint": "^8.53.0",
     "eslint-config-google": "^0.14.0",
-    "gulp": "^4.0.2",
-    "gulp-autoprefixer": "9.0.0",
-    "gulp-clean-css": "^4.3.0",
-    "gulp-cli": "^2.3.0",
-    "gulp-jshint": "^2.1.0",
-    "gulp-rename": "^2.0.0",
-    "gulp-replace": "^1.1.4",
-    "gulp-sass": "^5.1.0",
-    "gulp-uglify": "^3.0.2",
     "jest": "^29.7.0",
     "jest-environment-jsdom": "^29.7.0",
     "jshint": "^2.13.6",
-    "sass": "^1.69.5",
+    "postcss": "^8.4.38",
+    "sass": "^1.77.5",
     "sinon": "^17.0.1",
     "stylelint": "^15.11.0",
     "stylelint-config-standard-scss": "^11.1.0",
-    "uglify-save-license": "^0.4.1"
+    "uglify-save-license": "^0.4.1",
+    "vite": "^5.2.13",
+    "vite-plugin-banner": "^0.7.1"
   },
   "scripts": {
     "eslint": "eslint src/*.js",
-    "gulp": "gulp",
     "stylelint": "stylelint src/*.scss",
     "test": "jest",
-    "watch": "gulp watch"
+    "build": "vite build && node scss.mjs",
+    "watch": "vite build --watch"
   }
 }
